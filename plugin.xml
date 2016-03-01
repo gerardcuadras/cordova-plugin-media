@@ -44,7 +44,7 @@ id="cordova-plugin-media"
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Media" >
-                <param name="android-package" value="org.apache.cordova.media.AudioHandler"/>
+                <!--<param name="android-package" value="org.apache.cordova.media.AudioHandler"/>-->
             </feature>
         </config-file>
 
@@ -65,7 +65,7 @@ id="cordova-plugin-media"
     <platform name="amazon-fireos">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Media" >
-                <param name="android-package" value="org.apache.cordova.media.AudioHandler"/>
+                <!--<param name="android-package" value="org.apache.cordova.media.AudioHandler"/>-->
             </feature>
         </config-file>
 
@@ -76,7 +76,7 @@ id="cordova-plugin-media"
             <!-- READ_PHONE_STATE -->
         </config-file>
 
-        <source-file src="src/android/AudioHandler.java" target-dir="src/org/apache/cordova/media" />
+        <!--<source-file src="src/android/AudioHandler.java" target-dir="src/org/apache/cordova/media" />-->
         <source-file src="src/android/AudioPlayer.java" target-dir="src/org/apache/cordova/media" />
         <source-file src="src/android/FileHelper.java" target-dir="src/org/apache/cordova/media" />
      </platform>
